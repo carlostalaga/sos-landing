@@ -88,6 +88,17 @@ body {
     color: white;
 }
 
+.video-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-js {
+  width: 100%;
+  height: auto;
+}
+
+
 @media (max-width: 992px) {
 
 
