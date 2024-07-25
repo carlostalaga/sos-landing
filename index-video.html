@@ -7,13 +7,14 @@
     <title>SOS Strategic</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://vjs.zencdn.net/7.18.1/video-js.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.17.2/video-js.min.css" integrity="sha512-xQ+IvAl0/u0XWFWC0uoJLfQLKE+J3KZ/kPWpD/8ZoTw/pafvsQW0hudKW4lgZwk02eymBBpdwC0QfqrHUOhOhw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://use.typekit.net/wbe5ltf.css">
     <link rel="stylesheet" href="style.css">
-
 </head>
 
+
+</head>
 
 <body>
     <header class="container-fluid bg-dark text-white">
@@ -29,12 +30,13 @@
         </div>
     </header>
 
-
-
-    <div class="video-container">
-        <video id="my-video" class="video-js" controls preload="auto" autoplay loop muted data-setup="{}">
-            <source src="img/wave.mp4" type="video/mp4" />
-            <!-- You can include other video formats here -->
+    <div class="video-container" style="position: relative;width: 100%;padding-top: 35.25%;">
+        <video id=" my-video" class="video-js" preload="auto" autoplay loop muted data-setup="{}" style="position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;">
+            <source src="img/snow.mp4" type="video/mp4" style="width: 100vw;">
             <p class="vjs-no-js">
                 To view this video please enable JavaScript, and consider upgrading to a
                 web browser that
@@ -43,37 +45,22 @@
         </video>
     </div>
 
-
-    <!--     <div class="image-container">
-        <img src="img/demo.jpg" alt="SOS">
-        Centered Text
-    </div>
- -->
-
-
-    <!-- pop -->
     <div class="container">
         <div class="image-pop">
             <img src="img/pop.png" class="img-fluid">
         </div>
     </div>
 
-
-
-    <!-- paragraphs -->
     <div class="container text-center mb-5">
-
         <div class="row d-flex justify-content-center">
             <div class="col-12 col-lg-8 px-5 px-md-0">
                 <div class="my-5 pb-1">
                     <div class="mb-5">
                         <img src="img/sos-pos.png" alt="SOS" class="logo-constraint-content">
                     </div>
-
                     <div class="mb-4">
                         <h3 class="section-headline link-offset-3 text-underlined">STRATEGIC PROJECTS GROWTH - ADVISORY.</h3>
                     </div>
-
                     Providing business partnering solutions to start-ups and established business.
                     <h4 class="section-tagline mt-3">When you need to make things happen!</h4>
                 </div>
@@ -91,16 +78,11 @@
                 </div>
             </div>
         </div>
-
     </div>
 
-
-    <!-- cards -->
     <div class="container-fluid bg-light p-5">
         <div class="container">
-
             <div class="row d-flex justify-content-center">
-
                 <div class="col-12 col-md-5 col-lg-4 col-xl-3 bg-white p-4">
                     <h2 class="section-title">Steve Olech</h2>
                     <h6 class="card-details">Director <br>
@@ -113,10 +95,7 @@
                 </div>
 
                 <div class="col-12 col-md-7 col-lg-6 col-xl-7 py-4 ps-md-5">
-                    <h5 class="card-tagline">Sequi doluptatur aut accusa volore nobit lab id ute eos aut
-                        occus. Arist, voluptisti officia simini reprat eos istorepelit
-                        inveles net quam, occuptat im idendundam, sunt.</h5>
-
+                    <h5 class="card-tagline">Sequi doluptatur aut accusa volore nobit lab id ute eos aut occus. Arist, voluptisti officia simini reprat eos istorepelit inveles net quam, occuptat im idendundam, sunt.</h5>
                     <div>
                         Axim dolupta tectisitiist optatum simus, audiati amustibus. Comniae lam res mostion ecatectis magnimus dolliquis ad ut rendignatur. rempernat dolorem.
                         <br><br>
@@ -124,8 +103,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-md-10 my-4" style="border: 1px solid #999;">
-                </div>
+                <div class="col-12 col-md-10 my-4" style="border: 1px solid #999;"></div>
 
                 <div class="col-12 col-md-5 col-lg-4 col-xl-3 bg-white p-4">
                     <h2 class="section-title">Darren Pike</h2>
@@ -134,28 +112,22 @@
                         <span class="text-green">M: </span><a href="tel:0123 456 789" class="text-dark"></a>0123 456 789</a>
                     </h6>
                     <div>
-                        <img src="img/darren-pike.jpg" alt="Steve Olech" class="img-fluid">
+                        <img src="img/darren-pike.jpg" alt="Darren Pike" class="img-fluid">
                     </div>
                 </div>
 
                 <div class="col-12 col-md-7 col-lg-6 col-xl-7 py-4 ps-md-5">
-                    <h5 class="card-tagline">Sequi doluptatur aut accusa volore nobit lab id ute eos aut
-                        occus. Arist, voluptisti officia simini reprat eos istorepelit
-                        inveles net quam, occuptat im idendundam, sunt.</h5>
-
+                    <h5 class="card-tagline">Sequi doluptatur aut accusa volore nobit lab id ute eos aut occus. Arist, voluptisti officia simini reprat eos istorepelit inveles net quam, occuptat im idendundam, sunt.</h5>
                     <div>
                         Axim dolupta tectisitiist optatum simus, audiati amustibus. Comniae lam res mostion ecatectis magnimus dolliquis ad ut rendignatur. rempernat dolorem.
                         <br><br>
                         Nonserciat que etur, quam eum doloratur sa quisquae. Ur, sum sunt Ent parciendist omnis sam nobisi quiae solorrum ium doluptatur sunt veraerferiam etus nos eat quia de nullatur am faceature velis con rem et accab iureper feratia de con nis res sequibe roresti bersperae remquat fugia voloreri dolupta cus eostio modis post exerem volorias moluptat aliqui ut acculpariam haribusci volo beatur.
                     </div>
                 </div>
-
-
             </div>
         </div>
     </div>
 
-    <!-- bottom belt -->
     <div class="container-fluid bg-green py-5 px-5 px-md-0" style="background-image: url(img/pop-black.png); background-repeat: no-repeat; background-position: right bottom;">
         <div class="container text-center p-0">
             <div class="row d-flex justify-content-center pt-3">
@@ -166,10 +138,8 @@
         </div>
     </div>
 
-
     <footer class="container-fluid bg-black">
         <div class="container py-5">
-
             <div class="row text-white d-flex justify-content-center">
                 <div class="col-12 col-md-6 col-lg-5 text-center text-md-start mb-4 mb-md-0">
                     <img src="img/sos-neg.png" alt="SOS" class="logo-constraint">
@@ -181,8 +151,7 @@
                     </div>
                 </div>
 
-                <div class="col-12 col-lg-10 mt-5 mb-3" style="border-bottom: 1px solid #fff;">
-                </div>
+                <div class="col-12 col-lg-10 mt-5 mb-3" style="border-bottom: 1px solid #fff;"></div>
 
                 <div class="col-12 col-md-6 col-lg-5 mb-3 mb-md-0 text-center text-md-start">
                     Copyright © SO Strategic 2024 | ABN 86 134 712 413 | <a href="#" class="text-white">Privacy Policy</a>
@@ -192,15 +161,13 @@
                     Site by &nbsp; <a href="https://envyus.com.au" class="text-white"> EnvyUs Design</a>
                 </div>
             </div>
-
         </div>
-
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://vjs.zencdn.net/7.18.1/video.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/8.17.2/video.min.js" integrity="sha512-OvIj8+vO4dNS+XUR+3QohhL+rAlWjc6nEpsBv/yDPwsuE3kR+9osPVMLMUIDJc66uFkVJau2rT9biyqy/scGwA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>
