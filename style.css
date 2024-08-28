@@ -5,6 +5,25 @@ body {
     font-size: 16.5px;
 }
 
+/* 
+font-family: "open-sans", sans-serif;
+font-weight: 300;
+font-style: normal;
+ */
+
+.centered-list {
+  text-align: center;
+  padding-left: 0;
+}
+
+.centered-list li {
+  list-style-position: inside;
+  text-align: center;
+}
+.centered-list li::marker {
+  color: #00b140;
+}
+
 .section-title {
     font-family: "basic-sans", sans-serif;
     font-weight: 700;
@@ -12,6 +31,7 @@ body {
 }
 .section-headline {
     font-weight: 700;
+    line-height: 2;
 }
 .section-tagline {
     font-weight: 700;
@@ -88,6 +108,12 @@ body {
     background-color: #00b140;
     color: white;
 }
+
+
+
+
+
+
 
 
 
